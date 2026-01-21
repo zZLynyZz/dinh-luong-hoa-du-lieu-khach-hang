@@ -1,0 +1,43 @@
+# config.yaml
+# Cấu hình Trọng số & Điểm số cho hệ thống Tikop Sentiment Engine
+
+system:
+  min_score: -2.0
+  max_score: 2.0
+  
+weights:
+  # Trọng số tính điểm trung bình (Weighted Average)
+  text_content: 0.7
+  reaction: 0.3
+
+# Điểm số quy ước cho từng loại Reaction (Hành động thả cảm xúc)
+reaction_scores:
+  LOVE: 2.0
+  WOW: 1.0
+  LIKE: 0.5
+  NONE: 0.0
+  HAHA: -0.5    # Cười mỉa mai/trừ
+  SAD: -1.0
+  ANGRY: -2.0
+
+# App Store Ratings (Bổ sung mới)
+  5_STAR: 2.0
+  4_STAR: 1.0
+  3_STAR: -0.5  # Lưu ý: 3 sao vẫn bị coi là hơi tiêu cực với App review
+  2_STAR: -1.0
+  1_STAR: -2.0
+
+  
+# Điểm số quy ước cho Token Emoji trong văn bản
+emoji_scores:
+  "[ICON_POS]": 1.5
+  "[ICON_GROWTH]": 1.0
+  "[ICON_MONEY]": 0.5
+  "[ICON_LAUGH]": -0.5
+  "[ICON_NEG]": -1.5
+
+# Cấu hình mức độ ưu tiên (Priority Thresholds)
+priority_thresholds:
+  critical: -2.0  # Nếu score <= -2 hoặc topic là TRUST
+  high: -1.0      # Nếu score <= -1
+  medium: 0.0     # Nếu score < 0

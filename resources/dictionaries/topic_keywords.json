@@ -1,0 +1,28 @@
+{
+  "TOPIC_DEPOSIT": [
+    "nạp", "topup", "chưa vào ví", "trừ tiền", "momo", 
+    "banking", "mã giao dịch", "gateway", "chuyển khoản", 
+    "ck", "tiền chưa về"
+  ],
+  "TOPIC_WITHDRAW": [
+    "rút", "bao lâu về", "pending", "lệnh rút", "hạn mức", 
+    "phí rút", "kẹt tiền", "thanh khoản", "về chậm"
+  ],
+  "TOPIC_PRODUCT": [
+    "âu cơ", "lộc phát", "tích lũy", "lãi qua đêm", "lãi kép", 
+    "gói kỳ hạn", "tất toán", "lãi suất", "ls", "gửi tiết kiệm"
+  ],
+  "TOPIC_EKYC": [
+    "kyc", "cccd", "xác thực", "chụp ảnh", "đăng ký", 
+    "otp", "login", "quên pass", "mật khẩu", "đổi số điện thoại", 
+    "tài khoản", "nick"
+  ],
+  "TOPIC_TRUST": [
+    "lừa đảo", "sập", "an toàn không", "bảo hiểm", "cháy túi", 
+    "công an", "phốt", "đa cấp", "rủi ro", "mất tiền"
+  ],
+  "TOPIC_OTHER": [
+    "giao diện", "màu sắc", "font chữ", "admin", "sự kiện", 
+    "quà", "voucher", "app", "ứng dụng"
+  ]
+}

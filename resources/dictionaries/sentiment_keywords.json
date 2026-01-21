@@ -1,0 +1,40 @@
+{
+  "panic": {
+    "score": -2.0,
+    "keywords": [
+      "lừa đảo", "sập", "công an", "mất trắng", "cháy túi", 
+      "kiện", "tẩy chay", "dối trá", "thief", "kẻ trộm", 
+      "không rút được", "bùng tiền", "scam"
+    ]
+  },
+  "negative": {
+    "score": -1.0,
+    "keywords": [
+      "lỗi", "lag", "chậm", "chán", "tệ", "thất vọng", 
+      "trừ tiền", "không nhận được", "khó dùng", "ghét", 
+      "pending", "treo", "ngu", "xoá app"
+    ]
+  },
+  "neutral": {
+    "score": 0.0,
+    "keywords": [
+      "bao lâu", "hướng dẫn", "cách nào", "là gì", "tại sao", 
+      "phí", "hạn mức", "ở đâu", "khi nào", "check", 
+      "kiểm tra", "cho hỏi"
+    ]
+  },
+  "positive": {
+    "score": 1.0,
+    "keywords": [
+      "ổn", "được", "nhanh", "cũng tốt", "tiện", "mượt", 
+      "ok", "thanks", "cảm ơn", "good", "dễ dùng", "ngon"
+    ]
+  },
+  "advocacy": {
+    "score": 2.0,
+    "keywords": [
+      "tuyệt vời", "uy tín", "xuất sắc", "10 điểm", "mãi yêu", 
+      "best", "xịn sò", "lãi cao", "tin tưởng", "đỉnh", "vip"
+    ]
+  }
+}
