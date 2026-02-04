@@ -35,6 +35,9 @@ def main():
     # --------------------------------------------------------------------------
     # PHASE 1: CRAWLING 
     # --------------------------------------------------------------------------
+    # Lưu ý: Nếu bạn đã có dữ liệu sẵn trong data/crawler và không muốn cào lại
+    # thì có thể comment (đóng băng) đoạn này lại.
+    
     print_separator("1. CRAWLING DATA")
     try:
         # 1. Truyền tham số ngay lúc khởi tạo class

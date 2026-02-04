@@ -1,10 +1,13 @@
-pandas
-PyYAML
-streamlit==1.37.1
-plotly
-facebook-scraper
-# --- CÁC THƯ VIỆN BỔ TRỢ ĐỂ SỬA LỖI ---
-protobuf==4.25.3
-urllib3>=2.2.2
-websockets>=13.0pi
-pip install lxml_html_clean
+# Xử lý dữ liệu
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Cấu hình & Tiện ích
+pyyaml>=6.0
+
+# Crawler (Playwright)
+playwright>=1.35.0
+
+# Hỗ trợ Async (Tùy chọn, nhưng tốt cho CrawlerManager)
+aiofiles>=23.1.0
