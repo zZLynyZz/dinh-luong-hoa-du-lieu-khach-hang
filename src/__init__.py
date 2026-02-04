@@ -1,10 +1,13 @@
-# Khai báo phiên bản
-__version__ = "1.0.0"
-__author__ = "Lyny"
+# src/__init__.py
 
-# Import các class chính ra "mặt tiền" để dễ gọi
-from .preprocessor import DataPreprocessor
-from .segmenter import DataSegmenter
-from .topic_classifier import TopicClassifier
-from .scorer import SentimentScorer
-from .pipeline import SentimentPipeline
+# 1. Module Crawler
+from .run_crawler import CrawlerManager
+
+# 2. Module Merger
+from .data_merger import DataMerger
+
+# 3. Module Processing (Làm sạch)
+from .data_processor import DataProcessor
+
+# 4. Module Analysis (Chấm điểm & Phân loại)
+from .sentiment_scorer import SentimentScorer

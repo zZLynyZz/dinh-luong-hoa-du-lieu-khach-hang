@@ -1,3 +1,10 @@
 pandas
-numpy
-pyyaml
+PyYAML
+streamlit==1.37.1
+plotly
+facebook-scraper
+# --- CÁC THƯ VIỆN BỔ TRỢ ĐỂ SỬA LỖI ---
+protobuf==4.25.3
+urllib3>=2.2.2
+websockets>=13.0pi
+pip install lxml_html_clean

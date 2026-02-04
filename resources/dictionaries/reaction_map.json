@@ -1,0 +1,31 @@
+{
+  "like": "LIKE", 
+  "thích": "LIKE", 
+  "👍": "LIKE",
+  
+  "love": "LOVE", 
+  "yêu thích": "LOVE", 
+  "❤️": "LOVE", 
+  "care": "LOVE", 
+  "thương thương": "LOVE", 
+  "🥰": "LOVE",
+  
+  "haha": "HAHA", 
+  "cười": "HAHA", 
+  "😆": "HAHA", 
+  "😂": "HAHA",
+  
+  "wow": "WOW", 
+  "ngạc nhiên": "WOW", 
+  "😮": "WOW",
+  
+  "sad": "SAD", 
+  "buồn": "SAD", 
+  "😢": "SAD",
+  
+  "angry": "ANGRY", 
+  "phẫn nộ": "ANGRY", 
+  "😡": "ANGRY",
+  
+  "none": "NONE"
+}
